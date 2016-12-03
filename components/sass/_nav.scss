@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: $bg-color;
+}
+
+nav {
+	background-color: $nav-bg-color;
+	ul{
+		margin: 0;
+		padding: 0;
+
+		li{
+			list-style: none;
+			float: left;
+
+			a{
+				background-color: $red;
+				color: $red;
+				text-decoration: none;
+				&:hover{
+					background-color: $black;
+					color: $white
+				}//hover
+			}//a
+		}//li
+	}//ul
+}//nav
