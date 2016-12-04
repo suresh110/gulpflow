@@ -1,0 +1,37 @@
+/* line 1, C:/Users/suri/Desktop/gulpflow/components/sass/_nav.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+/* line 7, C:/Users/suri/Desktop/gulpflow/components/sass/_nav.scss */
+nav {
+  background-color: light(#F0D310, 30%);
+}
+
+/* line 9, C:/Users/suri/Desktop/gulpflow/components/sass/_nav.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, C:/Users/suri/Desktop/gulpflow/components/sass/_nav.scss */
+nav ul li {
+  list-style: none;
+  float: left;
+  color: #000;
+}
+
+/* line 18, C:/Users/suri/Desktop/gulpflow/components/sass/_nav.scss */
+nav ul li a {
+  background-color: #F51A2F;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 22, C:/Users/suri/Desktop/gulpflow/components/sass/_nav.scss */
+nav ul li a:hover {
+  background-color: #000;
+  color: #FFFFFF;
+}
